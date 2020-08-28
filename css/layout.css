@@ -1157,25 +1157,42 @@ header {
     background: #a00101;
     padding: 10px 0
 }
-.uni_windo{
+/*.uni_windo{
   background-position: none!important;
   background:none!important;
-}
+}*/
 .nav_icon span, .nav_icon span:before, .nav_icon span:after{background-color: #fff}
 
+  header, .logo{
+    text-align: center;
+  }
 
+  .hb_blok{
+    display: none;
+  }
+  .home-scroll__icon {
+    display: block;
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+
+  
 }
 
 @media(max-width: 630px){
+
   .bolo {
     display: none;
 }
   .yayaoune, .tit_inf {
     max-width: 95%;
     
-}.home-scroll {
- display: none;
 }
+.home-scroll {
+   
+    right: 20px;  
+}
+
 .flt span {
     font-size: 14px;
     margin-top: 2rem;
