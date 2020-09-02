@@ -677,11 +677,11 @@ button{
 
 .contact_lg{
 	float: left;
-	width: 60%;
+	width: 40%;
   overflow-x: hidden;
 }
 .contact_lg:last-child{
-  width: 40%;
+  width: 60%;
   
 }
 
@@ -889,6 +889,27 @@ button{
 .span-team-in{
   text-align: left;
 }
+.soco-dd dd {
+  padding: 9px  0
+}
+.soco-dd dd:first-child{
+  padding-top: 0
+}
+.soco-dd dd p a{
+    font-size: 28px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 5px;
+}
+.soco-dd dd p a i.fa-whatsapp{
+  color: #075e54
+}
+ .soco-dd dd p a i{
+  color: #900808
+}
+.soco-dd dd p a i.fa-weixin{
+  color: green
+}
 
 
 @media(max-width: 1100px){
@@ -922,6 +943,8 @@ button{
   .tab:hover {
     width: 100%;
   }
+  .soco h1 {
+    margin-bottom: 20px;}
 }
 
 @media (max-width: 680px) {
@@ -1147,20 +1170,27 @@ float: left;
   display: none;
 }
 .contact_lg:last-child {
-    display: none;
+    width: 100%
 }
 .contact_lg {
     float: none;
     width: 100%;
 }
+.media-container{
+  width: 100%
+}
 header {
     background: #a00101;
     padding: 10px 0
 }
-/*.uni_windo{
+.uni_windo{
   background-position: none!important;
-  background:none!important;
-}*/
+  background-size: 100% cover;
+  background-attachment: none!important
+}
+.all_box{
+  margin-top: 20px
+}
 .nav_icon span, .nav_icon span:before, .nav_icon span:after{background-color: #fff}
 
   header, .logo{
