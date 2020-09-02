@@ -697,7 +697,7 @@ button{
     
 }
 .media-container{
-/*   width: 80%; */
+
   margin: 0 auto
 }
 
@@ -1253,7 +1253,9 @@ padding: 5% 0
     text-align: justify;
    
 }
-
+.soco-dd dd{
+  padding: 0 0 9px 0;
+}
 
 }
 
