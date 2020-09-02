@@ -1181,11 +1181,12 @@ float: left;
 }
 header {
   /*  background: #a00101;*/
-    padding: 10px 0
+    padding: 10px 0;
+    position: static;
 }
 .uni_windo{
   background-position: none!important;
-  background-size: 100% cover;
+  background-size: 100% cover!important;
   background-attachment: none!important
 }
 .all_box{
@@ -1205,7 +1206,7 @@ header {
     height: 2.5rem;
     width: 2.5rem;
   }
-header{ position:static;}
+
   
 }
 
