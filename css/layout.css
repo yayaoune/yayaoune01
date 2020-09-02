@@ -1132,8 +1132,8 @@ float: left;
 
 .perso img{width: 100%;}
 .uni_windo, .para-slide{
-  background-attachment: fixed!important;
-    background-size: 100%!important;
+  background-attachment: fixed;
+    background-size: 100%;
 }
 
 
