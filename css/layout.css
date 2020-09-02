@@ -1205,14 +1205,12 @@ header {
     height: 2.5rem;
     width: 2.5rem;
   }
-
+header{ position:static;}
   
 }
 
 @media(max-width: 630px){
-header{
-	position:static;
-	}
+
   .bolo {
     display: none;
 }
