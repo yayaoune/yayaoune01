@@ -1180,7 +1180,7 @@ float: left;
   width: 100%
 }
 header {
-    background: #a00101;
+  /*  background: #a00101;*/
     padding: 10px 0
 }
 .uni_windo{
@@ -1193,9 +1193,9 @@ header {
 }
 .nav_icon span, .nav_icon span:before, .nav_icon span:after{background-color: #fff}
 
-  header, .logo{
+/*  header, .logo{
     text-align: center;
-  }
+  }*/
 
   .hb_blok{
     display: none;
