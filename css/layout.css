@@ -98,6 +98,9 @@ header{
   max-width: 95%;
   margin: 0 auto;
 }
+:focus {
+    outline: none!important;
+}
 .logo, .bolo{
 	font-size: 18px;
 	font-family: 'Charmonman', cursive;
@@ -651,7 +654,7 @@ display: block;
 }
 .text{text-align: justify;}
 .srv_tit {text-align: center;font-size: 15px;padding-bottom: 2%}
-input, textarea{width: 100%;display: block;margin-bottom: 2%;background: #fff;color: #000;font-size: 14px;line-height: 30px;text-align: center;padding: 0 2%;resize: none;border:1px solid #333;}
+input, textarea{width: 100%;display: block;margin-bottom: 2%;background: #fff;color: #000;font-size: 14px;line-height: 30px;text-align: center;padding: 1% 2%;resize: none;border:1px solid #333;}
 .contact_email{padding: 0 2%}
 button{
 	height: 30px;
